@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px ){
+/*************************************header********************************/
+#legend{
+    display: none;
+
+}
+#menu{
+    display: block;
+    
+}
+h1{
+    font-size: 20px ;
+}
+#logo{
+    height:50px;
+    width:50px;
+}
+
+/*******************************nav*****************************/
+nav{
+    display: none;
+}
+
+/*********************************Corps********************************/
+.rubric{
+    flex-direction: column-reverse;
+    
+}
+.rubricmap{
+    flex-direction: column-reverse;
+}
+.rubr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.tee{
+    width: 100px;
+    height: 100px;
+}
+#teecolor{
+    padding-left: 50px;
+}
+
+
+/******************************FOOTER***************************/
+#tfoot{
+    font-size: 20px;
+}
+footer ul{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+footer{
+  padding-left:0 ;  
+}
+
+}
